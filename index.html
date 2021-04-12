@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="vie value=" 0 " wport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #aaa;
+        }
+
+        .main {
+            width: 800px;
+            margin: auto;
+        }
+
+        li>div {
+            font-weight: 500;
+        }
+
+        li {
+            padding: 1em;
+            margin: 0.3em;
+            border: 1px solid #000;
+            border-radius: 1em;
+            background-color: #bbb;
+            font-weight: 600;
+            letter-spacing: 0.066em;
+            font-size: 1.3em;
+        }
+
+        li:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <ol>
+            <form action="result.php">
+                <li>
+                    <p>What is the Capital of West Bengal.</p>
+                    <div><input type="radio" name="q1" value="0" id="i11"> <label for="i11">Calicut</label> </div>
+                    <div><input type="radio" name="q1" value="0" id="i12"> <label for="i12">Durgapur</label> </div>
+                    <div><input type="radio" name="q1" value="0" id="i13"> <label for="i13">Kharagpur</label>
+                    </div>
+                    <div><input type="radio" name="q1" value="1" id="i11"> <label for="i11">Kolkata</label> </div>
+                </li>
+
+                <li>
+                    <p>What is the Capital of Tripura.</p>
+                    <div><input type="radio" name="q2" value="0" id="i21"> <label for="i21">Udaipur</label> </div>
+                    <div><input type="radio" name="q2" value="1" id="i22"> <label for="i22">Agartala</label> </div>
+                    <div><input type="radio" name="q2" value="0" id="i23"> <label for="i23">Aizawl</label> </div>
+                    <div><input type="radio" name="q2" value="0" id="i24"> <label for="i24">Kanchanpur</label>
+                    </div>
+                </li>
+
+                <li>
+                    <p>What is the Capital of Rajasthan.</p>
+                    <div><input type="radio" name="q3" value="0" id="i31"> <label for="i31">Rajsamand</label>
+                    </div>
+                    <div><input type="radio" name="q3" value="0" id="i32"> <label for="i32">Ajmer</label> </div>
+                    <div><input type="radio" name="q3" value="0" id="i33"> <label for="i33">Jodhpur</label> </div>
+                    <div><input type="radio" name="q3" value="1" id="i34"> <label for="i34">Jaipur</label> </div>
+                </li>
+
+                <li>
+                    <p>What is the Capital of Sikkim.</p>
+                    <div><input type="radio" name="q4" value="0" id="i41"> <label for="i41">Imphal</label> </div>
+                    <div><input type="radio" name="q4" value="1" id="i42"> <label for="i42">Gangtok</label> </div>
+                    <div><input type="radio" name="q4" value="0" id="i43"> <label for="i43">Shimla</label> </div>
+                    <div><input type="radio" name="q4" value="0" id="i44"> <label for="i44">Aizawl</label> </div>
+                </li>
+
+
+                <li>
+                    <p>What is the Capital of Arunachal Pradesh.</p>
+                    <div><input type="radio" name="q5" value="0" id="i51"> <label for="i51">Hyderabad</label>
+                    </div>
+                    <div><input type="radio" name="q5" value="0" id="i52"> <label for="i52">Gandhinagar</label>
+                    </div>
+                    <div><input type="radio" name="q5" value="1" id="i53"> <label for="i53">Itanagar</label> </div>
+                    <div><input type="radio" name="q5" value="0" id="i54"> <label for="i54">Chandigarh</label>
+                    </div>
+                </li>
+
+                <li>
+                    <p>What is the Capital of Maharasthtra.</p>
+                    <div><input type="radio" name="q6" value="1" id="i61"> <label for="i61">Mumbai</label> </div>
+                    <div><input type="radio" name="q6" value="0" id="i62"> <label for="i62">Bhopal</label> </div>
+                    <div><input type="radio" name="q6" value="0" id="i63"> <label for="i63">Bihar</label> </div>
+                    <div><input type="radio" name="q6" value="0" id="i64"> <label for="i64">Bangalore</label>
+                    </div>
+                </li>
+
+                <li>
+                    <p>What is the Capital of Mizoram.</p>
+                    <div><input type="radio" name="q7" value="0" id="i71"> <label for="i71">Jaipur</label> </div>
+                    <div><input type="radio" name="q7" value="0" id="i72"> <label for="i72">Gangtok</label> </div>
+                    <div><input type="radio" name="q7" value="1" id="i73"> <label for="i73">Aizawl</label> </div>
+                    <div><input type="radio" name="q7" value="0" id="i74"> <label for="i74">Khawzawl</label> </div>
+                </li>
+
+                <li>
+                    <p>What is the Capital of Chhattisgarh.</p>
+                    <div><input type="radio" name="q8" value="0" id="i81"> <label for="i81">Bilaspur</label> </div>
+                    <div><input type="radio" name="q8" value="1" id="i82"> <label for="i82">Raipur</label> </div>
+                    <div><input type="radio" name="q8" value="0" id="i83"> <label for="i83">Korba</label> </div>
+                    <div><input type="radio" name="q8" value="0" id="i84"> <label for="i84">Jagdalpur</label>
+                    </div>
+                </li>
+
+                <li>
+                    <p>What is the Capital of Telangana State.</p>
+                    <div><input type="radio" name="q9" value="0" id="i91"> <label for="i91">Nizamabad</label>
+                    </div>
+                    <div><input type="radio" name="q9" value="0" id="i92"> <label for="i92">Mahbubnagar</label>
+                    </div>
+                    <div><input type="radio" name="q9" value="0" id="i93"> <label for="i93">Nalgonda</label> </div>
+                    <div><input type="radio" name="q9" value="1" id="i94"> <label for="i94">Hyderabad</label>
+                    </div>
+                </li>
+
+                <li>
+                    <p>What is the Capital of Assam.</p>
+                    <div><input type="radio" name="q10" value="0" id="i101"> <label for="i101"> Tezpur</label>
+                    </div>
+                    <div><input type="radio" name="q10" value="0" id="i102"> <label for="i102"> Agartala</label>
+                    </div>
+                    <div><input type="radio" name="q10" value="1" id="i103"> <label for="i103"> Dispur</label>
+                    </div>
+                    <div><input type="radio" name="q10" value="0" id="i104"> <label for="i104"> Bhutan</label>
+                    </div>
+                </li>
+
+        </ol>
+        <input type="submit" name=""> </form>
+    </div>
+</body>
+
+</html>
